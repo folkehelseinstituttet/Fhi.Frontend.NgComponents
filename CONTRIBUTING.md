@@ -31,7 +31,7 @@ Issues that need confirmation will have the **confirm** label or be unlabeled an
 
 ## Documentation
 
-Great documentation is essential for any open source project and Fhi.FrontendBibliotek is no exception. [Our README](https://github.com/folkehelseinstituttet/Fhi.FrontendBibliotek/blob/dev/README.md) often lags behind the features that have been implemented or would benefit from better examples.
+Great documentation is essential for any open source project and Fhi.FrontendBibliotek is no exception. [Our README](https://github.com/folkehelseinstituttet/Fhi.FrontendBibliotek/blob/main/README.md) often lags behind the features that have been implemented or would benefit from better examples.
 
 **PS.** If you would like to contribute to creating an exended, and better, documentation in the form of a [Wiki](https://github.com/folkehelseinstituttet/Fhi.FrontendBibliotek/wiki), help is really appreciated!
 
@@ -43,7 +43,7 @@ It is also a good idea to add a comment to an issue that you are working on to l
 
 ## License
 
-Fhi.FrontendBibliotek is under the [MIT license](https://github.com/folkehelseinstituttet/Fhi.FrontendBibliotek/blob/dev/LICENSE). By contributing to Fhi.FrontendBibliotek, you assert that:
+Fhi.FrontendBibliotek is under the [MIT license](https://github.com/folkehelseinstituttet/Fhi.FrontendBibliotek/blob/main/LICENSE). By contributing to Fhi.FrontendBibliotek, you assert that:
 
 - The contribution is your own original work.
 - You have the right to assign the copyright for the work (it is not owned by your employer, or
