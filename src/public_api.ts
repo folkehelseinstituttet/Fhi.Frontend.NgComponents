@@ -1,0 +1,1 @@
+export * from './app/modules/fhi-tab-bar/fhi-tab-bar.module';
