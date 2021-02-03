@@ -2,17 +2,19 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterModule } from '@angular/router';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
-import { FhiTabBarComponent } from './fhi-tab-bar.component';
+import { FhiMainMenuComponent } from './fhi-main-menu.component';
 
 
 @NgModule({
-  declarations: [FhiTabBarComponent],
-  exports: [FhiTabBarComponent],
+  declarations: [FhiMainMenuComponent],
+  exports: [FhiMainMenuComponent],
   imports: [
     CommonModule,
     RouterModule,
     NgbModule,
+    FontAwesomeModule,
   ]
 })
-export class FhiTabBarModule { }
+export class FhiMainMenuModule { }

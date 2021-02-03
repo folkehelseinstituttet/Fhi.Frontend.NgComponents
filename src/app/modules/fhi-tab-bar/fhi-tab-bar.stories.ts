@@ -6,15 +6,16 @@ import { Story, Meta } from '@storybook/angular';
 import { SharedModule } from '../../shared/shared.module';
 
 import { FhiTabBarComponent } from './fhi-tab-bar.component';
+import { FhiTabBarModule } from './fhi-tab-bar.module';
 
 
 export default {
-  title: 'Fhi/Tab-bar',
+  title: 'Fhi/fhi-tab-bar',
   component: FhiTabBarComponent,
   decorators: [
     moduleMetadata({
       declarations: [],
-      imports: [CommonModule, SharedModule, RouterTestingModule],
+      imports: [FhiTabBarModule, RouterTestingModule],
     }),
   ],
 } as Meta;
