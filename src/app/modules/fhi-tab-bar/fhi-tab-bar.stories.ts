@@ -1,9 +1,6 @@
 import { moduleMetadata } from '@storybook/angular';
-import { CommonModule,  } from '@angular/common';
 import { RouterTestingModule } from '@angular/router/testing';
 import { Story, Meta } from '@storybook/angular';
-
-import { SharedModule } from '../../shared/shared.module';
 
 import { FhiTabBarComponent } from './fhi-tab-bar.component';
 import { FhiTabBarModule } from './fhi-tab-bar.module';

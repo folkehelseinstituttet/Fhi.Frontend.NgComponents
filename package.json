@@ -1,6 +1,8 @@
 {
-  "name": "frontend-bibliotek",
-  "version": "0.0.0",
+  "name": "@folkehelseinstituttet/ng-components",
+  "version": "0.1.0",
+  "description": "Angular components used by Folkehelseinstituttet",
+  "license": "MIT",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -11,9 +13,7 @@
     "docs:json": "compodoc -p ./tsconfig.json -e json -d .",
     "storybook": "npm run docs:json && start-storybook -p 6006",
     "build-storybook": "npm run docs:json && build-storybook",
-    "packagr": "ng-packagr -p ng-package.json",
-    "copy-styles": "cp -r src/styles dist/scss",
-    "prepare-package": "npm run packagr && npm run copy-styles"
+    "packagr": "ng-packagr -p ng-package.json"
   },
   "private": true,
   "peer-dependencies": {
@@ -65,5 +65,8 @@
     "tslint": "~6.1.0",
     "typescript": "~4.1.2",
     "zone.js": "~0.11.3"
+  },
+  "dependencies": {
+    "@folkehelseinstituttet/style": "^1.0.0"
   }
 }
