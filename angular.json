@@ -19,6 +19,9 @@
           "options": {
             "tsConfig": "projects/ng-components/tsconfig.lib.json",
             "project": "projects/ng-components/ng-package.json",
+            "assets": [
+              "projects/ng-components/src/assets"
+            ],
             "styles": [
               "projects/ng-components/src/styles.scss"
             ]

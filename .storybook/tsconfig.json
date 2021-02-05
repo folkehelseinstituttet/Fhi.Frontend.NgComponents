@@ -7,7 +7,7 @@
   },
   "exclude": [
     "../src/test.ts",
-    "../**/*.spec.ts",
+    "../src/**/*.spec.ts",
     "../projects/**/*.spec.ts"
   ],
   "include": [
