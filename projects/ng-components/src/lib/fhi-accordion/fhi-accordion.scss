@@ -1,0 +1,33 @@
+@import "~@folkehelseinstituttet/style/scss/variables";
+
+.fhi-accordion {
+    & &__panel {
+        margin-bottom: 25px;
+        border-radius: 4px !important;
+        box-shadow: 0px 2px 2px #00000029;
+
+        & .card-header {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            padding: 0;
+            height: 104px;
+        }
+
+        &-toggle{
+            height: 100%;
+            width: 101px;
+            border: 0;
+            color: $white;
+            background-color: $fhi-blue-grey-5;
+        }
+        &-toggle-icon{
+            display: block;
+            font-size: 48px;
+            transition: transform 300ms ease;
+            &--open{
+                transform: rotate(180deg);
+            }
+        }
+    }
+}

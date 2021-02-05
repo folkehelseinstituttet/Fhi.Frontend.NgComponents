@@ -1,0 +1,28 @@
+<ng-template #defaultHeaderTemplate let-item="item">
+    <div style="margin: 30px;">
+        {{item.title}}
+    </div>
+</ng-template>
+
+<ng-template #defaultContentTemplate let-item="item">
+    <div>
+        {{item.content}}
+    </div>
+</ng-template>
+
+
+<div class="fhi-accordion">
+    <ngb-accordion #a="ngbAccordion" [closeOthers]="true">
+        <ngb-panel *ngFor="let item of items" id="item-{{item.id}}" cardClass="fhi-accordion__panel">
+            <ng-template ngbPanelHeader let-open="opened">
+                    <button ngbPanelToggle class="fhi-accordion__panel-toggle">
+                        <fa-icon [icon]="faAngleDown" class="fhi-accordion__panel-toggle-icon" [class.fhi-accordion__panel-toggle-icon--open]="open"></fa-icon>
+                    </button>
+                    <ng-container *ngTemplateOutlet="headerTemplate || defaultHeaderTemplate, context: {item: item }"> </ng-container>
+            </ng-template>
+            <ng-template ngbPanelContent>
+                <ng-container *ngTemplateOutlet="contentTemplate || defaultContentTemplate, context: {item: item }"> </ng-container>
+            </ng-template>
+        </ngb-panel>
+    </ngb-accordion>
+  </div>
