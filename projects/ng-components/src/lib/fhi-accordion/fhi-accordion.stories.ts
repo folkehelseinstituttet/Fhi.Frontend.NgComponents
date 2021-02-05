@@ -7,7 +7,7 @@ import { FhiAccordionModule } from './fhi-accordion.module';
 
 
 export default {
-  title: 'Fhi/Accordion',
+  title: 'Fhi/fhi-accordion',
   component: FhiAccordionComponent,
   decorators: [
     moduleMetadata({
