@@ -1,0 +1,33 @@
+@import "~@folkehelseinstituttet/style/scss/variables.scss";
+
+.fhi-tab-bar{
+  border-bottom: none;  
+  &__nav-link {
+    width: 350px;
+    padding: $fhi-space-3 $fhi-space-4;
+    margin-right: $fhi-space-3;
+    border-bottom: none;
+
+    text-decoration: none;
+    background-color: $fhi-blue-grey-3;
+    color: $black;
+    transition: background-color .1s ease-in-out, border-color .1s ease-in-out;
+    
+    font-size: 1.1rem;
+    border-color: $fhi-grey-light-4;
+    border-top-left-radius: $fhi-space-2;
+    border-top-right-radius: $fhi-space-2;
+
+    &.active {
+      color: $black;
+      font-weight: bold;
+      background-color: $white;
+      border-color: $fhi-grey-light-4;
+    }
+
+    &:hover, &:focus {
+      border-color: $fhi-grey-1 $fhi-grey-1 $white;
+      background-color: $fhi-grey-light-1;
+    }
+  }
+}

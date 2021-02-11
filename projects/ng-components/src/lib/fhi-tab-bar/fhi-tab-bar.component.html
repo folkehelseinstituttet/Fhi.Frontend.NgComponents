@@ -1,0 +1,27 @@
+<div class="fhi-tab-bar__container container">
+  <div class="row">
+    <div class="col-12">
+      <nav class="navbar navbar-expand-lg pb-0">
+          <ul  ngbNav class="nav-tabs fhi-tab-bar">
+            <ng-template ngFor let-link [ngForOf]="links">
+              <li
+                class="nav-item fhi-tab-bar__item"
+                ngbNavItem
+              >
+                <a
+                  class="nav-link fhi-tab-bar__nav-link"
+                  ngbNavLink
+                  routerLinkActive="active"
+                  routerLink="{{link.routerLink}}"
+                >
+                  <div class="fhi-tab-bar__nav-link-content">
+                    <span class="fhi-tab-bar__nav-link-text">{{link.title}}</span>
+                  </div>
+                </a>
+              </li>
+            </ng-template>
+          </ul>
+      </nav>
+    </div>
+  </div>
+</div>
