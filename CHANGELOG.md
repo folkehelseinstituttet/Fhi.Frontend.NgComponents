@@ -1,3 +1,10 @@
+# 0.2.0
+> Feb 24, 2021
+
+* :tada: **Enhancement** Added panelChange prop to fhi-accordion
+* :tada: **Enhancement** Added identifyItem prop to fhi-accordion
+* :tada: **Enhancement** Added readme for fhi-accordion: [README](./projects/ng-components/src/lib/fhi-accordion/README.md)
+
 # 0.1.1
 > Feb 09, 2021
 
