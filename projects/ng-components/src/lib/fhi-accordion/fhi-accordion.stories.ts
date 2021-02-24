@@ -1,6 +1,5 @@
 import { moduleMetadata } from '@storybook/angular';
 import { Story, Meta } from '@storybook/angular';
-import { action } from '@storybook/addon-actions';
 import { faAngleDown } from '@fortawesome/free-solid-svg-icons';
 
 import { FhiAccordionComponent } from './fhi-accordion.component';
