@@ -1,24 +1,26 @@
-<ng-template #defaultHeaderTemplate let-item="item">
+<ng-template #defaultHeaderTemplate let-item="item" let-opened="open">
     <div style="margin: 30px;">
         {{item.title}}
+        {{opened}}
     </div>
 </ng-template>
 
-<ng-template #defaultContentTemplate let-item="item">
+<ng-template #defaultContentTemplate let-item="item" let-opened="open">
     <div style="margin: 60px;">
         {{item.content}}
+        {{opened}}
     </div>
 </ng-template>
 
 
 <div class="fhi-accordion">
-    <ngb-accordion #a="ngbAccordion" [closeOthers]="true">
-        <ngb-panel *ngFor="let item of items" id="item-{{item.id}}" cardClass="fhi-accordion__panel">
-            <ng-template ngbPanelHeader let-open="opened">
+    <ngb-accordion #a="ngbAccordion" [closeOthers]="true" (panelChange)="panelChange($event)">
+        <ngb-panel *ngFor="let item of items" [id]="identifyItem(item)" cardClass="fhi-accordion__panel">
+            <ng-template ngbPanelHeader let-opened="opened">
                     <button ngbPanelToggle class="fhi-accordion__panel-toggle">
-                        <fa-icon [icon]="faAngleDown" class="fhi-accordion__panel-toggle-icon" [class.fhi-accordion__panel-toggle-icon--open]="open"></fa-icon>
+                        <fa-icon [icon]="faAngleDown" class="fhi-accordion__panel-toggle-icon" [class.fhi-accordion__panel-toggle-icon--open]="opened"></fa-icon>
                     </button>
-                    <ng-container *ngTemplateOutlet="headerTemplate || defaultHeaderTemplate, context: {item: item }"> </ng-container>
+                    <ng-container *ngTemplateOutlet="headerTemplate || defaultHeaderTemplate, context: {item: item, opened: opened }"> </ng-container>
             </ng-template>
             <ng-template ngbPanelContent>
                 <ng-container *ngTemplateOutlet="contentTemplate || defaultContentTemplate, context: {item: item }"> </ng-container>

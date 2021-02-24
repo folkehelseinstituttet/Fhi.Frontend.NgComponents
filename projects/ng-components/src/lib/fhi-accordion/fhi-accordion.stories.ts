@@ -1,5 +1,6 @@
 import { moduleMetadata } from '@storybook/angular';
 import { Story, Meta } from '@storybook/angular';
+import { action } from '@storybook/addon-actions';
 import { faAngleDown } from '@fortawesome/free-solid-svg-icons';
 
 import { FhiAccordionComponent } from './fhi-accordion.component';
@@ -24,6 +25,7 @@ const Template: Story<FhiAccordionComponent> = (args: FhiAccordionComponent) => 
 
 export const normal = Template.bind({});
 normal.args = {
+  panelChange: (e: any) => console.log('Panel changed: ', e),
   faAngleDown,
   items: [
     {id: 1, title: 'This is a title', content: 'acon ipsum dolor amet beef ribs chicken buffalo andouille pancetta burgdoggen turkey pig. Meatball tenderloin cow ground round hamburger.'},

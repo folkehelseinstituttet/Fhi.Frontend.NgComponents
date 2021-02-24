@@ -15,6 +15,9 @@ export class FhiAccordionComponent {
   @Input() headerTemplate!: TemplateRef<any>;
   @Input() contentTemplate!: TemplateRef<any>;
 
+  @Input() panelChange: Function = () => {};
+  @Input() identifyItem: Function = (item: any): string => `Item-${item.id}`;
+
   constructor() { }
 
 }
