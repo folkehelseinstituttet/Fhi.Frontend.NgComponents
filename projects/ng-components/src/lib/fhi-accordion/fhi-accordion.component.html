@@ -17,13 +17,17 @@
     <ngb-accordion #a="ngbAccordion" [closeOthers]="true" (panelChange)="panelChange($event)">
         <ngb-panel *ngFor="let item of items" [id]="identifyItem(item)" cardClass="fhi-accordion__panel">
             <ng-template ngbPanelHeader let-opened="opened">
-                    <button ngbPanelToggle class="fhi-accordion__panel-toggle">
-                        <fa-icon [icon]="faAngleDown" class="fhi-accordion__panel-toggle-icon" [class.fhi-accordion__panel-toggle-icon--open]="opened"></fa-icon>
+                <div class="fhi-accordion__panel__header">
+                    <button ngbPanelToggle class="fhi-accordion__panel__toggle">
+                        <fa-icon [icon]="faAngleDown" class="fhi-accordion__panel__toggle-icon" [class.fhi-accordion__panel__toggle-icon--open]="opened"></fa-icon>
                     </button>
                     <ng-container *ngTemplateOutlet="headerTemplate || defaultHeaderTemplate, context: {item: item, opened: opened }"> </ng-container>
+                </div>
             </ng-template>
             <ng-template ngbPanelContent>
-                <ng-container *ngTemplateOutlet="contentTemplate || defaultContentTemplate, context: {item: item }"> </ng-container>
+                <div class="fhi-accordion__panel__content">
+                    <ng-container *ngTemplateOutlet="contentTemplate || defaultContentTemplate, context: {item: item }" class="fhi-accordion__panel-body"> </ng-container>
+                </div>
             </ng-template>
         </ngb-panel>
     </ngb-accordion>
