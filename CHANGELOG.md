@@ -1,3 +1,8 @@
+# 0.2.1
+> Feb 26, 2021
+
+* :bug: **Bugfix** Fixed accordion component to prevent contamination of bootstrap `.card` classes
+
 # 0.2.0
 > Feb 24, 2021
 
