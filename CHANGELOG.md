@@ -1,4 +1,4 @@
-# 0.2.1
+# 0.2.2
 > Mar 08, 2021
 
 * :bug: **Bugfix** Fixed position of arrow in accordion component
