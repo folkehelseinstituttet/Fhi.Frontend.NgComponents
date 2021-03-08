@@ -27,7 +27,8 @@
         }
         
         &__toggle-icon{
-            display: block;
+            display: flex;
+            justify-content: center;
             font-size: 48px;
             transition: transform 300ms ease;
             &--open{
