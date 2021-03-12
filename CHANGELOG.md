@@ -1,3 +1,10 @@
+# Unreleased
+
+> Mar 12, 2021
+
+* :tada: **Enhancement** Add table of contents to CONTRIBUTING
+* :tada: **Enhancement** Add pull request guidelines
+
 # 0.2.2
 > Mar 08, 2021
 
