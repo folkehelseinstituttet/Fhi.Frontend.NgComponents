@@ -1,4 +1,7 @@
 # Unreleased
+> Mar 16, 2021
+
+* :bug: **Bugfix** Add missing peer dependency: @fortawesome/angular-fontawesome
 
 > Mar 12, 2021
 
