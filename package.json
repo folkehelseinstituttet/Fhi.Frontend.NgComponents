@@ -23,7 +23,7 @@
     "bootstrap": "^4.6.0"
   },
   "dependencies": {
-    "@folkehelseinstituttet/style": "^1.0.0"
+    "@folkehelseinstituttet/style": "^1.4.1"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "~0.1101.2",
