@@ -1,4 +1,8 @@
 # Unreleased
+> Apr 8, 2021
+
+* :tada: **Enhancement** Prevent release creation when release build fails
+* :tada: **Enhancement** Enforce usage of node 14 when releasing with GitHub Actions. 
 
 > Apr 7, 2021
 
