@@ -1,19 +1,10 @@
 # Unreleased
-> Apr 8, 2021
 
+* :bug: **Bugfix** Fix SCSS imports in Fhi.Frontend.Style 1.4.1
 * :tada: **Enhancement** Prevent release creation when release build fails
 * :tada: **Enhancement** Enforce usage of node 14 when releasing with GitHub Actions. 
-
-> Apr 7, 2021
-
 * :tada: **Enhancement** Update Fhi.Frontend.Style to version 1.4.1
-
-> Mar 16, 2021
-
 * :bug: **Bugfix** Add missing peer dependency: @fortawesome/angular-fontawesome
-
-> Mar 26, 2021
-
 * :tada: **Enhancement** Update pull request guidelines in CONTRIBUTING
 * :tada: **Enhancement** Add table of contents to CONTRIBUTING
 * :tada: **Enhancement** Add pull request guidelines to CONTRIBUTING

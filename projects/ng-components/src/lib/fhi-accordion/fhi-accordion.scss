@@ -1,4 +1,4 @@
-@import "~@folkehelseinstituttet/style/scss/variables";
+@import "~@folkehelseinstituttet/style/scss/variables.scss";
 
 .fhi-accordion {
     &__panel {
@@ -9,13 +9,13 @@
         &__header {
             display: flex;
             padding: 0;
-            background-color: $fhi-grey-light-2; 
+            background-color: $fhi-grey-light-2;
             margin: -0.75rem -1.25rem; // Reverse bootstrap card padding
-            
+
             flex-direction: row;
             align-items: center;
             height: 104px;
-            border-bottom: none;      
+            border-bottom: none;
         }
 
         &__toggle{
@@ -25,7 +25,7 @@
             color: $white;
             background-color: $fhi-blue-grey-5;
         }
-        
+
         &__toggle-icon{
             display: flex;
             justify-content: center;
@@ -34,12 +34,12 @@
             &--open{
                 transform: rotate(180deg);
             }
-        }  
+        }
 
         &__content {
             display: flex;
             padding: 0;
-            background-color: $fhi-grey-light-2; 
+            background-color: $fhi-grey-light-2;
             margin: -1.25rem; // Reverse bootstrap card-body padding
         }
     }
