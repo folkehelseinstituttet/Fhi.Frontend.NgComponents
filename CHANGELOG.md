@@ -1,8 +1,9 @@
 # Unreleased
 
+* :tada: **Enhancement** Add orig to gitignore
 * :bug: **Bugfix** Fix SCSS imports in Fhi.Frontend.Style 1.4.1
 * :tada: **Enhancement** Prevent release creation when release build fails
-* :tada: **Enhancement** Enforce usage of node 14 when releasing with GitHub Actions. 
+* :tada: **Enhancement** Enforce usage of node 14 when releasing with GitHub Actions
 * :tada: **Enhancement** Update Fhi.Frontend.Style to version 1.4.1
 * :bug: **Bugfix** Add missing peer dependency: @fortawesome/angular-fontawesome
 * :tada: **Enhancement** Update pull request guidelines in CONTRIBUTING
