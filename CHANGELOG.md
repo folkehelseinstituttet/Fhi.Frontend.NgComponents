@@ -9,6 +9,7 @@
 * :tada: **Enhancement** Update pull request guidelines in CONTRIBUTING
 * :tada: **Enhancement** Add table of contents to CONTRIBUTING
 * :tada: **Enhancement** Add pull request guidelines to CONTRIBUTING
+* :tada: **Enhancement** Added encapsulation: ViewEncapsulation.None to tab-bar for enabeling external styling of component
 
 ## 0.2.2
 
