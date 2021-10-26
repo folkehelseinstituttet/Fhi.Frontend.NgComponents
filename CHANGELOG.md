@@ -1,4 +1,9 @@
-# Unreleased
+## Unreleased
+
+
+## 0.3.0
+
+> Oct 26, 2021
 
 * :tada: **Enhancement** Add orig to gitignore
 * :bug: **Bugfix** Fix SCSS imports in Fhi.Frontend.Style 1.4.1
