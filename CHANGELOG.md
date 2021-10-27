@@ -12,6 +12,7 @@
 * :tada: **Enhancement** Add table of contents to CONTRIBUTING
 * :tada: **Enhancement** Add pull request guidelines to CONTRIBUTING
 * :tada: **Enhancement** Added encapsulation: ViewEncapsulation.None to tab-bar for enabeling external styling of component
+* :bug: **Bugfix** Fixed fhi-tab-bar css precedence over bootstrap after removing ViewEncapsulation
 
 ## 0.2.2
 
