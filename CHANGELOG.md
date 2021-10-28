@@ -1,4 +1,6 @@
-# Unreleased
+# 0.3.0
+
+> Oct 26, 2021
 
 * :tada: **Enhancement** Add orig to gitignore
 * :bug: **Bugfix** Fix SCSS imports in Fhi.Frontend.Style 1.4.1
@@ -10,6 +12,7 @@
 * :tada: **Enhancement** Add table of contents to CONTRIBUTING
 * :tada: **Enhancement** Add pull request guidelines to CONTRIBUTING
 * :tada: **Enhancement** Added encapsulation: ViewEncapsulation.None to tab-bar for enabeling external styling of component
+* :bug: **Bugfix** Fixed fhi-tab-bar css precedence over bootstrap after removing ViewEncapsulation
 
 ## 0.2.2
 
