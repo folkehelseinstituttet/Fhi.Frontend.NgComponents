@@ -1,6 +1,6 @@
-# Fhi.Frontend.NgComponents
+# DEPRECATED! Fhi.Frontend.NgComponents
 
-Contains frontend Angular components used by FHI
+>_This repository is no longer maintained. An new repository and a NPM-package for FHI Angular components will be established, and links will be added here as soon as they are up and running._
 
 ## Development
 
